@@ -3,6 +3,7 @@
 //! engine, in std-only Rust.
 
 pub mod crypto;
+pub mod gauss;
 pub mod oracle;
 pub mod qpsrt;
 pub mod qk;
