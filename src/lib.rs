@@ -3,6 +3,7 @@
 //! engine, in std-only Rust.
 
 pub mod crypto;
+pub mod tables;
 pub mod tables_gen;
 
 /// Crate version (also embedded in artifacts).
