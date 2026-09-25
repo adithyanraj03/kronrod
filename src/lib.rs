@@ -6,6 +6,7 @@ pub mod battery;
 pub mod crypto;
 pub mod gauss;
 pub mod oracle;
+pub mod pdf;
 pub mod qag;
 pub mod qpsrt;
 pub mod qk;
