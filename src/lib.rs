@@ -2,6 +2,7 @@
 //! the exact Netlib rule tables, two-method Gauss-Legendre, and the QAG
 //! engine, in std-only Rust.
 
+pub mod attest;
 pub mod battery;
 pub mod crypto;
 pub mod gauss;
