@@ -3,6 +3,7 @@
 //! engine, in std-only Rust.
 
 pub mod crypto;
+pub mod tables_gen;
 
 /// Crate version (also embedded in artifacts).
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
