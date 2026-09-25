@@ -10,6 +10,7 @@ pub mod pdf;
 pub mod qag;
 pub mod qpsrt;
 pub mod qk;
+pub mod svg;
 pub mod tables;
 pub mod tables_gen;
 
