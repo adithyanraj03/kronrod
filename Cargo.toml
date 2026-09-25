@@ -1,0 +1,19 @@
+[package]
+name = "kronrod"
+version = "1.0.0"
+edition = "2021"
+description = "QUADPACK-style adaptive Gauss-Kronrod quadrature engine rebuilt from scratch and verified against the official 80-digit Netlib/Bell Labs constants"
+license = "MIT"
+authors = ["Adithya N Raj <adithyanraj03@gmail.com>"]
+
+[lib]
+name = "kronrod"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kronrod"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+debug = false
