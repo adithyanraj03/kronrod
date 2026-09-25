@@ -1,0 +1,13 @@
+================================================================================
+KRONROD DETERMINISM ATTESTATION
+crate   : kronrod 1.0.0
+policy  : std-only, zero dependencies; no wall clock, no env input
+method  : battery report + PDF dossier generated twice in-process;
+          SHA-256 digests compared; artifacts are pure functions
+          of the embedded constants (Netlib tables, OEIS oracles)
+run 1   : report.txt sha256 = 9d90e7bb7ef477b15c26edead27251b5813fb27c172fb5424d0fe70740531408
+run 2   : report.txt sha256 = 9d90e7bb7ef477b15c26edead27251b5813fb27c172fb5424d0fe70740531408
+run 1   : dossier.pdf sha256 = afbfee8780ee58fda4e8e65be71ecfbfa8337fc2b213c4eac3afa3dfd493441a
+run 2   : dossier.pdf sha256 = afbfee8780ee58fda4e8e65be71ecfbfa8337fc2b213c4eac3afa3dfd493441a
+verdict : BYTE-IDENTICAL (dual-run diff empty)
+================================================================================
