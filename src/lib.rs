@@ -5,6 +5,7 @@
 pub mod crypto;
 pub mod oracle;
 pub mod qpsrt;
+pub mod qk;
 pub mod tables;
 pub mod tables_gen;
 
